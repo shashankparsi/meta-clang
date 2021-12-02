@@ -31,7 +31,8 @@ Add meta-clang overlay
 bitbake-layers add-layer ../meta-clang
 ```
 
-Check `conf/bblayers.conf` to see that meta-clang is added to layer mix e.g.
+Check `conf/bblayers.conf` to see that meta-clang is added to layer mix . 
+for example
 
 ```
 bitbake-layers show-layers 
