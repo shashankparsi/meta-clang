@@ -33,6 +33,28 @@ bitbake-layers add-layer ../meta-clang
 
 Check `conf/bblayers.conf` to see that meta-clang is added to layer mix e.g.
 
+```
+bitbake-layers show-layers 
+
+```
+NOTE: Starting bitbake server...
+layer                 path                                      priority
+==========================================================================
+meta                  /data/home/qt_checkit/shashank/poky_new/poky/meta  5
+meta-poky             /data/home/qt_checkit/shashank/poky_new/poky/meta-poky  5
+meta-yocto-bsp        /data/home/qt_checkit/shashank/poky_new/poky/meta-yocto-bsp  5
+meta-oe               /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-oe  6
+meta-networking       /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-networking  5
+meta-python           /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-python  7
+meta-multimedia       /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-multimedia  6
+meta-perl             /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-perl  6
+meta-virtualization   /data/home/qt_checkit/shashank/poky_new/poky/meta-virtualization  8
+meta-filesystems      /data/home/qt_checkit/shashank/poky_new/poky/meta-openembedded/meta-filesystems  6
+meta-mylayer          /data/home/qt_checkit/shashank/poky_new/poky/meta-mylayer  6
+meta-security         /data/home/qt_checkit/shashank/poky_new/poky/meta-security  8
+meta-rust             /data/home/qt_checkit/shashank/poky_new/poky/meta-rust  7
+meta-clang            /data/home/qt_checkit/shashank/poky_new/poky/meta-clang  7
+
 # Default Compiler
 
 Note that by default gcc will remain the system compiler, however if you wish
